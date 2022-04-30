@@ -1,0 +1,27 @@
+[
+	{
+		"precio": 120.000,
+		"id": 1,
+		"title": "Sendero Suasie ",
+		"description": "EL SENDERO SUASIE VALE COPA",
+		"thumbnailUrl": "imgs/venado1.jpg"
+	},
+
+	{
+		"precio": 135000,
+		"id": 2,
+		"title": "Sendero Laguna de Chingaza",
+		"description": "descrip",
+		"thumbnailUrl": "imgs/lagunach.jpg"
+	},
+
+	{
+		"precio": 135.000,
+		"id": 3,
+		"title": "Sendero Lagunas de Siecha",
+		"description": "EL SENDERO L DE SIECHA VALE COPA",
+		"thumbnailUrl": "imgs/SIECHA.jpg"
+	}
+
+
+]
