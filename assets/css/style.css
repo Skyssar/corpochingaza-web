@@ -84,7 +84,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .parrafo1{
  color: #000000; 
+ text-align: justify;
 }
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -2274,6 +2276,19 @@ a .img-contact{
 .nequipo-banner{
   height: 80vh;
   background:  url("../img/corpochingaza/equipo de trabajo.jpg") center;
+  background-size: cover;
+  /* background-position: center; */
+}
+
+.banner-img{
+  height: 450px;
+  background:  url("../img/corpochingaza/equipo de trabajo.jpg") center;
+  background-size: cover;
+  /* background-position: center; */
+}
+.banner-img2{
+  height: 450px;
+  background:  url("../img/corpochingaza/politicas.jpg") center;
   background-size: cover;
   /* background-position: center; */
 }
