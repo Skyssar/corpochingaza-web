@@ -7,6 +7,7 @@
 (function() {
   "use strict";
 
+
   /**
    * Easy selector helper function
    */
@@ -81,6 +82,7 @@
   /**
    * Header fixed top on scroll
    */
+
   let selectHeader = select('#header')
   let selectTopbar = select('#topbar')
   if (selectHeader) {
