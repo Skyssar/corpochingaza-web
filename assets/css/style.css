@@ -204,17 +204,26 @@ h1, h2, h3, h4, h5, h6 {
 #topbar .cta {
   background: transparent;
 }
-#topbar .cta a {
+#topbar .cta .button {
   color: #fff;
   background: #f6b024;
   padding: 6px 24px 6px 24px;
   display: inline-block;
   transition: 0.3s;
   border-radius: 50px;
+  margin: 0px 5px;
 }
-#topbar .cta a:hover {
+#topbar .cta .button:hover {
   background: #f1a40a;
 }
+
+#topbar .cta .flag-icon img {
+  max-height: 20px;
+}
+#topbar .cta .flag-icon img:hover {
+  opacity: 0.8;
+}
+
 
 /*--------------------------------------------------------------
 # Header
