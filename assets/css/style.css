@@ -73,6 +73,12 @@ a {
   width: 70%;
 }
 
+.colasistencia{
+  position: relative;
+  left: 5%;
+  top: 70%;
+}
+
 a:hover {
   color: #2b99f8;
   text-decoration: none;
@@ -2288,6 +2294,14 @@ a .img-contact{
   background-size: cover;
   /* background-position: center; */
 }
+
+.nequipo-banner2{
+  height: 80vh;
+  background:  url("../img/corpochingaza/BG.jpg") center;
+  background-size: cover;
+  /* background-position: center; */
+}
+
 
 .banner-img{
   height: 450px;
