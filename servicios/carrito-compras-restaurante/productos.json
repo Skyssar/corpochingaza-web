@@ -1,0 +1,44 @@
+[
+	{
+		"precio": 25000,
+		"id": 1,
+		"title": "Pechuga a la Plancha ",
+		"description": "Pechuga aprox 380g, papas a la francesa y ensalada.",
+		"thumbnailUrl": "imgs/pollo (menu).jpg"
+	},
+	{
+		"precio": 28000,
+		"id": 2,
+		"title": "PECHUGA GRATINADA",
+		"description": "Pechuga aprox 380g con queso, papas a la francesa y ensalada.",
+		"thumbnailUrl": "imgs/pollo (menu).jpg"
+	},
+	{
+		"precio": 30000,
+		"id": 3,
+		"title": "TRUCHA A LA PLANCHA",
+		"description": "Trucha aprox 400 g, papas a la francesa y ensalada.",
+		"thumbnailUrl": "imgs/Trucha (menu).jpg"
+	},
+	{
+		"precio": 28000,
+		"id": 4,
+		"title": "PECHUGA EN SALSA DE CHAMPIÑONES",
+		"description": "Pechuga aprox 380g en salsa de champiñones y ensalada.",
+		"thumbnailUrl": "imgs/pechugagrati.jpg"
+	},
+	{
+		"precio": 28000,
+		"id": 5,
+		"title": "COSTILLITAS BBQ",
+		"description": "Costillas de cerdo, papas a la francesa o patacon y ensalada.",
+		"thumbnailUrl": "imgs/costillas1.jpg"
+	},
+	{
+		"precio": 30000,
+		"id": 6,
+		"title": "CHURRASCO",
+		"description": "Churrasco aprox 380g, papas a la francesa y ensalada.",
+		"thumbnailUrl": "imgs/Churrasco (menu).jpg"
+	}
+]
