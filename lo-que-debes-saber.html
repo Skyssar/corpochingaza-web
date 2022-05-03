@@ -12,7 +12,7 @@
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <!-- Google Fonts -->
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
@@ -41,78 +41,17 @@
 
 <body>
 
-  <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="fixed-top d-flex align-items-center ">
-    <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">ecoturismocorpochingaza@gmail.com</a>
-        <i class="bi bi-phone-fill phone-icon"></i> +1 5589 55488 55
-      </div>
-      <div class="cta d-none d-md-block">
-        <a href="/carrito-compras-master/index.html" class="button scrollto">Reserva Ahora</a>
-        <a href="#" class="flag-icon scrollto">
-          <img src="/assets/img/corpochingaza/icons//colombia-flag.png" alt="Bandera COL" title="Español">
-        </a>
-        <a href="en/index.html" class="flag-icon scrollto">
-          <img src="/assets/img/corpochingaza/icons/reino-unido.png" alt="Bandera UK" title="Inglés">
-        </a>
-      </div>
-    </div>
+  <!--Navigation bar-->
+  <div id="nav-placeholder">
+
   </div>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center ">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <!-- <h1 class="logo"><a href="index.html"></a></h1> -->
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class="logo"><img src="assets/img/corpochingaza/logo.PNG" alt="" class="img-fluid"></a>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto" href="index.html">INICIO</a></li>
-          <li class="dropdown"><a href="#hero"><span>QUIÉNES SOMOS</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="/N_equipo.html">Nuestro equipo</a></li>
-              <li><a href="/organi.html">Organigrama</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#services"><span>NUESTROS SERVICIOS</span> <i
-                class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="tarifasing.html">Tarifas de ingreso</a></li>
-              <li><a href="/carrito-compras-master/index.html">Senderismo</a></li>
-              <li><a href="/servicios/hospedaje.html">Hospedaje</a></li>
-              <li><a href="/servicios/camping.html">Camping</a></li>
-              <li><a href="/servicios/restaurante.html">Restaurante</a></li>
-              <li><a href="/servicios/polizas-de-seguridad.html">Pólizas de seguridad</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#services"><span>PAQUETES TURÍSTICOS</span> <i
-                class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="/paquetes/tras-la-huella-del-oso-y-el-venado.html">Tras la Huella del Oso y el Venado</a>
-              </li>
-              <li><a href="/paquetes/vive-el-encanto-de-chingaza.html">Vive el Encanto de Chingaza</a></li>
-              <li><a href="/paquetes/nuestra-herencia-muisca.html">Siecha: Nuestra Herencia Muisca</a></li>
-              <li><a href="/paquetes/chingaza-nocturna.html">Chingaza Nocturna</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#services"><span>RESERVA CON NOSOTROS</span> <i
-                class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="/lo-que-debes-saber.html">Lo Que Debes Saber</a></li>
-              <li><a href="politicas.html">Políticas Generales</a></li>
-              <li><a href="polizas.html">Cobertura Pólizas de Seguridad</a></li>
-              <li><a href="condiciones.html">Condiciones y Restricciones</a></li>
-            </ul>
-          </li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
+  <script>
+    $(function () {
+      $("#nav-placeholder").load("nav.html");
+    });
+  </script>
+  <!--end of Navigation bar-->
 
   <section id="cta" class="cta icon-boxes">
     <div class="container" data-aos="fade-up">

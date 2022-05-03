@@ -12,6 +12,7 @@
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
     <!-- Google Fonts -->
     <link
@@ -42,68 +43,17 @@
 <body>
 
 
-    <!-- ======= Top Bar ======= -->
-    <div id="topbar" class="fixed-top d-flex align-items-center ">
-        <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
-          <div class="contact-info d-flex align-items-center">
-            <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">ecoturismocorpochingaza@gmail.com</a>
-            <i class="bi bi-phone-fill phone-icon"></i> +1 5589 55488 55
-          </div>
-          <div class="cta d-none d-md-block">
-            <a href="/carrito-compras-master/index.html" class="scrollto">Reserva Ahora</a>
-          </div>
-        </div>
-      </div>
-    
-      <!-- ======= Header ======= -->
-      <header id="header" class="fixed-top d-flex align-items-center ">
-        <div class="container d-flex align-items-center justify-content-between">
-    
-          <!-- <h1 class="logo"><a href="index.html"></a></h1> -->
-          <!-- Uncomment below if you prefer to use an image logo -->
-          <a href="index.html" class="logo"><img src="assets/img/corpochingaza/logo.PNG" alt="" class="img-fluid"></a>
-    
-          <nav id="navbar" class="navbar">
-            <ul>
-              <li><a class="nav-link scrollto" href="index.html">INICIO</a></li>
-              <li class="dropdown"><a href="#hero"><span>QUIÉNES SOMOS</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                  <li><a href="/N_equipo.html">Nuestro equipo</a></li>
-                  <li><a href="/organi.html">Organigrama</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#services"><span>NUESTROS SERVICIOS</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                  <li><a href="tarifasing.html">Tarifas de ingreso</a></li>
-                  <li><a href="/carrito-compras-master/index.html">Senderismo</a></li>
-                  <li><a href="/servicios/hospedaje.html">Hospedaje</a></li>
-                  <li><a href="/servicios/camping.html">Camping</a></li>
-                  <li><a href="/servicios/restaurante.html">Restaurante</a></li>
-                  <li><a href="/servicios/polizas-de-seguridad.html">Pólizas de seguridad</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#services"><span>PAQUETES TURÍSTICOS</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                  <li><a href="/paquetes/tras-la-huella-del-oso-y-el-venado.html">Tras la Huella del Oso y el Venado</a></li>
-                  <li><a href="/paquetes/vive-el-encanto-de-chingaza.html">Vive el Encanto de Chingaza</a></li>
-                  <li><a href="/paquetes/nuestra-herencia-muisca.html">Siecha: Nuestra Herencia Muisca</a></li>
-                  <li><a href="/paquetes/chingaza-nocturna.html">Chingaza Nocturna</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#services"><span>RESERVA CON NOSOTROS</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                  <li><a href="/lo-que-debes-saber.html">Lo Que Debes Saber</a></li>
-                  <li><a href="politicas.html">Políticas Generales</a></li>
-                  <li><a href="polizas.html">Cobertura Pólizas de Seguridad</a></li>
-                  <li><a href="condiciones.html">Condiciones y Restricciones</a></li>
-                </ul>
-              </li>
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-          </nav><!-- .navbar -->
-    
-        </div>
-      </header><!-- End Header -->
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("nav.html");
+        });
+    </script>
+    <!--end of Navigation bar-->
 
     <div class="banner-img2">
 
@@ -199,50 +149,65 @@
 
 
 
-                               
-
-                            <h3 class="animate__animated animate__fadeInDown" style="color: #017dc7;">
-                                <b>CONDICIONES</b>
-                            </h3>
-
-                            <ul class="parrafo1">
-                                <li>Contar con su Kit de higiene personal compuesto por: Tapabocas adicional, Alcohol o
-                                    gel antibacterial y pañuelos;</li>
-                                <li>El uso del tapabocas es obligatorio.</li>
-                                <li>Tenga en cuenta que estamos ubicados en ecosistema de páramo y bosque alto andino
-                                    por lo tanto es importante que se encuentre en buen estado de salud para realizar
-                                    las caminatas (no sufrir problemas cardíacos, respiratorios, o lesiones de rodilla).
-                                </li>
-                                <li>Se debe presentar el derecho de ingreso en los puntos autorizados el cual se
-                                    adquiere una vez sea efectiva la reserva, sin excepción.</li>
-                                <li>Contratar los servicios de interpretación ambiental.</li>
-                                <li>Contratar los servicios de tarjeta de asistencia al viajero</li>
-                                <li>El ingreso de visitantes solo está permitido por los sitios autorizados: Sector
-                                    Piedras Gordas, Sector Siecha y Sector La Paila-Laguna de Chingaza. El ingreso por
-                                    lugares diferentes acarrea procesos sancionatorios según la normatividad vigente.
-                                </li>
-                                <li>Está prohibido alimentar a los venados y en general a los animales que se encuentren
-                                    en el parque.</li>
-
-                            </ul>
 
 
-                            <h3 class="animate__animated animate__fadeInDown" style="color: #017dc7;">
-                                <b>RESTRICCIONES:</b>
-                            </h3>
+                                    <h3 class="animate__animated animate__fadeInDown" style="color: #017dc7;">
+                                        <b>CONDICIONES</b>
+                                    </h3>
 
-                            <ul class="parrafo1">
-                                <li>Si antes del viaje presenta tos, fiebre o algún síntoma asociado al COVID-19, por favor cancele o reprograme su viaje.</li>
-                                <li>El ingreso de mascotas está  prohibido.</li>
-                                <li>Al interior del área protegida está prohibido la generación excesiva de ruido que altere la armonía de la naturaleza y los visitantes.</li>
-                                <li>Está prohibido el ingreso y consumo de bebidas alcohólicas, alucinógenas o psicoactivas dentro del área protegida.</li>
-                                <li>No se permite el ingreso de armas de fuego.</li>
-                                <li>Se prohíbe el ingreso de plásticos de un solo uso en las áreas del Sistema de Parques Nacionales Naturales Colombia de acuerdo con la resolución 1558 de 2019 de Parques Nacionales.</li>
-                                <li>Solo se permite realizar senderismo o actividades al interior del área protegida en las zonas autorizadas y delimitadas</li>
-                                <li>Está prohibido: hacer fogatas, arrojar colillas de cigarrillos, quemar basura, realizar talas y capturar animales silvestres.</li>
-                                <li>Está prohibido extraer fauna y/o flora del área protegida</li>
-                            </ul>
-                        </b></p><br>
+                                    <ul class="parrafo1">
+                                        <li>Contar con su Kit de higiene personal compuesto por: Tapabocas adicional,
+                                            Alcohol o
+                                            gel antibacterial y pañuelos;</li>
+                                        <li>El uso del tapabocas es obligatorio.</li>
+                                        <li>Tenga en cuenta que estamos ubicados en ecosistema de páramo y bosque alto
+                                            andino
+                                            por lo tanto es importante que se encuentre en buen estado de salud para
+                                            realizar
+                                            las caminatas (no sufrir problemas cardíacos, respiratorios, o lesiones de
+                                            rodilla).
+                                        </li>
+                                        <li>Se debe presentar el derecho de ingreso en los puntos autorizados el cual se
+                                            adquiere una vez sea efectiva la reserva, sin excepción.</li>
+                                        <li>Contratar los servicios de interpretación ambiental.</li>
+                                        <li>Contratar los servicios de tarjeta de asistencia al viajero</li>
+                                        <li>El ingreso de visitantes solo está permitido por los sitios autorizados:
+                                            Sector
+                                            Piedras Gordas, Sector Siecha y Sector La Paila-Laguna de Chingaza. El
+                                            ingreso por
+                                            lugares diferentes acarrea procesos sancionatorios según la normatividad
+                                            vigente.
+                                        </li>
+                                        <li>Está prohibido alimentar a los venados y en general a los animales que se
+                                            encuentren
+                                            en el parque.</li>
+
+                                    </ul>
+
+
+                                    <h3 class="animate__animated animate__fadeInDown" style="color: #017dc7;">
+                                        <b>RESTRICCIONES:</b>
+                                    </h3>
+
+                                    <ul class="parrafo1">
+                                        <li>Si antes del viaje presenta tos, fiebre o algún síntoma asociado al
+                                            COVID-19, por favor cancele o reprograme su viaje.</li>
+                                        <li>El ingreso de mascotas está prohibido.</li>
+                                        <li>Al interior del área protegida está prohibido la generación excesiva de
+                                            ruido que altere la armonía de la naturaleza y los visitantes.</li>
+                                        <li>Está prohibido el ingreso y consumo de bebidas alcohólicas, alucinógenas o
+                                            psicoactivas dentro del área protegida.</li>
+                                        <li>No se permite el ingreso de armas de fuego.</li>
+                                        <li>Se prohíbe el ingreso de plásticos de un solo uso en las áreas del Sistema
+                                            de Parques Nacionales Naturales Colombia de acuerdo con la resolución 1558
+                                            de 2019 de Parques Nacionales.</li>
+                                        <li>Solo se permite realizar senderismo o actividades al interior del área
+                                            protegida en las zonas autorizadas y delimitadas</li>
+                                        <li>Está prohibido: hacer fogatas, arrojar colillas de cigarrillos, quemar
+                                            basura, realizar talas y capturar animales silvestres.</li>
+                                        <li>Está prohibido extraer fauna y/o flora del área protegida</li>
+                                    </ul>
+                                </b></p><br>
                         </div>
                     </div>
                 </div>
