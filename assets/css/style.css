@@ -32,6 +32,38 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+.mision{
+  position: absolute;
+  left: 20%;
+  
+  color: white;
+}
+.tmision{
+  position: absolute;
+   text-align: justify;
+   font-weight: bold;
+  color: white;
+  width: 400px;
+  height: 400px;
+  margin-top: 10%;
+  left: 10%;
+}
+.vision{
+  position: absolute;
+  color: white;
+  left: 75%;
+}
+.tvision{
+  position: absolute;
+   text-align: justify;
+   font-weight: bold;
+  color: white;
+  width: 400px;
+  height: 400px;
+  margin-top: 10%;
+  left: 65%;
+ 
+}
 .equipo{
     margin-top: 30px;
     text-align: center;
@@ -2295,12 +2327,25 @@ a .img-contact{
   /* background-position: center; */
 }
 
+.nequipo-banner3{
+  height: 80vh;
+  background:  url("../img/corpochingaza/quienessomos.jpg") center;
+  background-size: cover;
+  /* background-position: center; */
+}
+
 .nequipo-banner2{
   height: 80vh;
   background:  url("../img/corpochingaza/BG.jpg") center;
   background-size: cover;
   /* background-position: center; */
 }
+
+.posicion{
+  text-align: center;
+  display: inline-block;
+}
+
 
 
 .banner-img{
