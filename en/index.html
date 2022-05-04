@@ -12,6 +12,7 @@
   <!-- Favicons -->
   <link href="/assets/img/favicon.png" rel="icon">
   <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -39,93 +40,17 @@
 
 <body>
 
-  <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="fixed-top d-flex align-items-center ">
-    <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">ecoturismocorpochingaza@gmail.com</a>
-        <i class="bi bi-phone-fill phone-icon"></i> +1 5589 55488 55
-      </div>
-      <div class="cta d-none d-md-block">
-        <a href="/carrito-compras-master/index.html" class="button scrollto">Book Now</a>
-        <a href="/index.html" class="flag-icon scrollto">
-          <img src="/assets/img/corpochingaza/icons/colombia.jpeg" alt="Bandera COL" title="Español">
-        </a>
-        <a href="#" class="flag-icon scrollto">
-          <img src="/assets/img/corpochingaza/icons/ingles.jpeg" alt="Bandera UK" title="Inglés">
-        </a>
-      </div>
-    </div>
+  <!--Navigation bar-->
+  <div id="nav-placeholder">
+
   </div>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center ">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <!-- <h1 class="logo"><a href="index.html"></a></h1> -->
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" title="Corpochingaza" class="logo"><img src="/assets/img/corpochingaza/logo.PNG" alt="Logo" class="img-fluid"></a>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="index.html">HOME</a></li>
-          <li class="dropdown"><a href="#hero"><span>WHO WE ARE</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="/N_equipo.html">Our Team</a></li>
-              <li><a href="/organi.html">Organization Chart</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#services"><span>OUR SERVICES</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="tarifasing.html">Income Fees</a></li>
-              <li><a href="/carrito-compras-master/index.html">Hiking</a></li>
-              <li><a href="/servicios/hospedaje.html">Hosting</a></li>
-              <li><a href="/servicios/camping.html">Camping</a></li>
-              <li><a href="/servicios/restaurante.html">Restaurant</a></li>
-              <li><a href="/servicios/polizas-de-seguridad.html">Safety Policies</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#services"><span>TOURIST PACKAGES</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="/paquetes/tras-la-huella-del-oso-y-el-venado.html">In the Footsteps of Bear and Deer</a></li>
-              <li><a href="/paquetes/vive-el-encanto-de-chingaza.html">Experience the Enchantment of Chingaza</a></li>
-              <li><a href="/paquetes/nuestra-herencia-muisca.html">Siecha: Our Muisca Heritage</a></li>
-              <li><a href="/paquetes/chingaza-nocturna.html">Chingaza Nocturnal</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#services"><span>MAKE YOUR RESERVATION</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="/lo-que-debes-saber.html">What You Must To Know</a></li>
-              <li><a href="politicas.html">General Policy</a></li>
-              <li><a href="polizas.html">Security Policy Coverage</a></li>
-              <li><a href="condiciones.html">Conditions and Restrictions</a></li>
-            </ul>
-          </li>
-          <!-- <li><a href="blog.html">Blog</a></li> -->
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
-          <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
+  <script>
+    $(function () {
+      $("#nav-placeholder").load("/assets/html/nav-en.html");
+    });
+  </script>
+  <!--end of Navigation bar-->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex justify-cntent-center align-items-center">
@@ -193,7 +118,7 @@
           <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-4" data-aos="fade-up">
             <div class="icon-box">
               <img class="img" src="/assets/img/corpochingaza/DSC_5910.jpg" /> 
-              <h3 class="title"><a href="">Nuestros Servicios</a></h3>
+              <h3 class="title"><a href="">Our Services</a></h3>
               <!-- <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p> -->
             </div>
           </div>
@@ -201,7 +126,7 @@
           <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-4" data-aos="fade-up">
             <div class="icon-box">
               <img class="img" src="/assets/img/corpochingaza/SIECHA-DIC-338.jpg" /> 
-              <h3 class="title"><a href="">Paquetes Turísticos</a></h3>
+              <h3 class="title"><a href="">Tourist Packages</a></h3>
               <!-- <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p> -->
             </div>
           </div>
@@ -209,7 +134,7 @@
             <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-4" data-aos="fade-up">
               <div class="icon-box">
                 <img class="img" src="/assets/img/corpochingaza/VENADOS-NOV-209.jpg" /> 
-                <h3 class="title"><a href="">Lo que debes saber</a></h3>
+                <h3 class="title"><a href="">You Must To Know</a></h3>
                 <!-- <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p> -->
               </div>
             </div>
@@ -237,7 +162,7 @@
             <div class="row" data-aos="zoom-in">
               <div class="section-title">
                 <div style="max-width: 800px; margin: auto;">
-                  <h2>"La mayor amenaza para nuestro planeta es la creencia de que otra persona lo salvará"</h2>
+                  <h2>"The biggest threat to our planet is the belief that someone else will save it"</h2>
                   <h4>Robert Swan (1956).</h4>
                 </div>
               </div>
@@ -511,7 +436,7 @@
           <div class="col-lg-6 col-md-6 portfolio-item filter-app">
             <img src="https://static.wixstatic.com/media/8fc318_589ff9bb5b8841ed9e71092aecaca7a6~mv2.jpg/v1/fill/w_605,h_233,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1_2.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Embalse de chuza, sector Monterredondo</h4>
+              <h4>Chuza reservoir, Monterredondo sector</h4>
               <p>Rojas, N. (2021)</p>
               <a href="https://static.wixstatic.com/media/8fc318_be5d0aa8ca4b48659bcdd172451a4ec8~mv2.jpg/v1/fill/w_610,h_238,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1_3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Embalse de chuza, sector Monterredondo"><i class="bx bx-plus"></i></a>
             </div>
@@ -529,7 +454,7 @@
           <div class="col-lg-6 col-md-6 portfolio-item filter-app">
             <img src="https://static.wixstatic.com/media/8fc318_be5d0aa8ca4b48659bcdd172451a4ec8~mv2.jpg/v1/fill/w_610,h_238,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1_3.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Embalse de chuza, sector Monterredondo</h4>
+              <h4>Chuza reservoir, Monterredondo sector</h4>
               <p>Rojas, N. (2021)</p>
               <a href="https://static.wixstatic.com/media/8fc318_be5d0aa8ca4b48659bcdd172451a4ec8~mv2.jpg/v1/fill/w_610,h_238,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1_3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Embalse de chuza, sector Monterredondo"><i class="bx bx-plus"></i></a>
             </div>
@@ -547,7 +472,7 @@
           <div class="col-lg-6 col-md-6 portfolio-item filter-app">
             <img src="https://static.wixstatic.com/media/8fc318_be5d0aa8ca4b48659bcdd172451a4ec8~mv2.jpg/v1/fill/w_610,h_238,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1_3.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Embalse de chuza, sector Monterredondo</h4>
+              <h4>Chuza reservoir, Monterredondo sector</h4>
               <p>Rojas, N. (2021)</p>
               <a href="https://static.wixstatic.com/media/8fc318_be5d0aa8ca4b48659bcdd172451a4ec8~mv2.jpg/v1/fill/w_610,h_238,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1_3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Embalse de chuza, sector Monterredondo"><i class="bx bx-plus"></i></a>
             </div>
@@ -804,7 +729,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2 style="color: #017dc7;">CONTÁCTANOS</h2>
+          <h2 style="color: #017dc7;">CONTACT US</h2>
         </div>
 
         <div class="row mt-1 d-flex justify-content-end" data-aos="fade-right" data-aos-delay="100">
@@ -813,8 +738,8 @@
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt icon"></i>
-                <h4>Dirección:</h4>
-                <p>Calle 6 # 3-39, Oficina 204, <br>
+                <h4>Address:</h4>
+                <p>Cl 6 # 3-39, Office 204, <br>
                   La Calera-Cundinamarca</p>
               </div>
 
@@ -826,7 +751,7 @@
 
               <div class="phone">
                 <i class="bi bi-phone icon"></i>
-                <h4>Redes Sociales:</h4>
+                <h4>Social Media:</h4>
                 <div class="social-links mt-3" style="padding-left: 60px;">
                   <a href="#" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
                   <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -844,24 +769,24 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Nombre Y Apellido" required>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Names" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Enviar</button></div>
+              <div class="text-center"><button type="submit">Send</button></div>
             </form>
 
           </div>

@@ -10,8 +10,8 @@ let carrito = {}
 
 document.addEventListener('DOMContentLoaded', ()=>{
 	fetchData()
-	if(localStorage.getItem('carrito')){
-		carrito = JSON.parse(localStorage.getItem('carrito'))
+	if(localStorage.getItem('carrito-restaurante')){
+		carrito = JSON.parse(localStorage.getItem('carrito-restaurante'))
 		pintarCarrito()
 	}
 }
@@ -65,7 +65,7 @@ const setCarrito = item => {
 	//console.log(objeto)
 	const producto = {
 		title: item.querySelector('h5').textContent,
-		precio: item.querySelector('p').textContent,
+		precio: item.querySelector('span').textContent.split(" ")[1], // separa el $ del precio
 		id: item.querySelector('.btn-dark').dataset.id,
 		cantidad: 1
 	}
@@ -87,7 +87,7 @@ const pintarCarrito = ()=> {
 		templateCarrito.querySelectorAll('td')[1].textContent = producto.cantidad
 		templateCarrito.querySelector('.btn-info').dataset.id = producto.id
 		templateCarrito.querySelector('.btn-danger').dataset.id = producto.id
-		templateCarrito.querySelector('span').textContent = producto.cantidad * producto.precio
+		templateCarrito.querySelector('span').textContent = producto.precio * producto.cantidad
 		const clone = templateCarrito.cloneNode(true)
 		fragment.appendChild(clone)
 	})
@@ -96,7 +96,7 @@ const pintarCarrito = ()=> {
 
 	pintarFooter()
 
-	localStorage.setItem('carrito', JSON.stringify(carrito))
+	localStorage.setItem('carrito-restaurante', JSON.stringify(carrito))
 
 }
 

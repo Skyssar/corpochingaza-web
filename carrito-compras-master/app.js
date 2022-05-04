@@ -65,7 +65,7 @@ const setCarrito = item => {
 	//console.log(objeto)
 	const producto = {
 		title: item.querySelector('h5').textContent,
-		precio: item.querySelector('p').textContent,
+		precio: item.querySelector('span').textContent.split(" ")[1], // separa el $ del precio
 		id: item.querySelector('.btn-dark').dataset.id,
 		cantidad: 1
 	}
