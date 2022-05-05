@@ -167,6 +167,7 @@ ul.timeline > li:before {
   text-align: justify;
  }
 
+
  .tvision1{
   position: absolute;
    text-align: justify;
@@ -175,7 +176,7 @@ ul.timeline > li:before {
   width: 400px;
   height: 400px;
   margin-top: 10%;
-  left: 25%;
+  left: 20%;
  }
 
  .tarjetas{
