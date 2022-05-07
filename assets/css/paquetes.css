@@ -186,3 +186,28 @@ ul.timeline > li:before {
  .card-title{
    color: #017dc7;
  }
+ .finalreserva{
+   width: 80%;
+   display: block;
+ margin: 0px auto;
+ margin-top: 30px;
+  height: 80vh;
+  background: url("/assets/img/corpochingaza/SIECHA-DIC-338.jpg") center;
+  background-size: cover;
+  
+}
+.finalreserva1{
+  width: 80%;
+  display: block;
+margin: 0px auto;
+margin-top: 30px;
+
+ height: 80vh;
+ background: url("/assets/img/corpochingaza/polisas2.jpg") center;
+ background-size: cover;
+ 
+}
+.btn{
+  font-weight: bold;
+
+}
