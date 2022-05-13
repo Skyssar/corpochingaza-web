@@ -745,7 +745,8 @@ section {
   padding: 40px 30px;
   position: relative;
   overflow: hidden;
-  background: black;
+  background: transparent;
+  border-color: #017dc7;
   box-shadow: 5px 10px 29px 0 rgba(68, 88, 144, 0.2);
   transition: all 0.3s ease-in-out;
   border-radius: 10px;
@@ -756,6 +757,7 @@ section {
   width: 75%;
   /* max-height: 135px; */
   display: block;
+  border-color: #017dc7;
   margin: 0 auto 20px auto;
 }
 
