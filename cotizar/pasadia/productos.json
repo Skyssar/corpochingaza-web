@@ -1,0 +1,62 @@
+[
+	{
+		"precio": 0,
+		"id": 1,
+		"title": " Nacionales ",
+		"description": "  65 años o mayores",
+		"thumbnailUrl": "imgs/visitantes1.jpg"
+	},
+
+	{
+		"precio": 0,
+		"id": 2,
+		"title": "Nacionales con ",
+		"description": "5 años o menos",
+		"thumbnailUrl": "imgs/lagunach.jpg"
+	},
+
+	{
+		"precio": 18000,
+		"id": 3,
+		"title": "Nacional o extranjero residente en Colombia o miembro de la CAN ",
+		"description": "MAYOR DE 6 AÑOS HASTA LOS 25 AÑOS",
+		"thumbnailUrl": "imgs/SIECHA.jpg"
+	},
+	{
+		"precio": 21000,
+		"id": 3,
+		"title": "Adulto nacional, miembro de la CAN o extranjero residente en Colombia  ",
+		"description": "mayor de 25 años",
+		"thumbnailUrl": "imgs/lagunach.jpg"
+	},
+	{
+		"precio": 21000,
+		"id": 3,
+		"title": "Extranjero ",
+		"description": " no residente en Colombia ni miembro de la CAN",
+		"thumbnailUrl": "imgs/fondo1.jpg"
+	},
+	{
+		"precio": 16000,
+		"id": 3,
+		"title": "Ingreso de automovil",
+		"description": " -",
+		"thumbnailUrl": "imgs/senderismo1.jpg"
+	},
+	{
+		"precio": 39500,
+		"id": 3,
+		"title": "Ingreso de Colectivo o Vans ",
+		"description": " -",
+		"thumbnailUrl": "imgs/SIECHA.jpg"
+	},
+	{
+		"precio": 83000,
+		"id": 3,
+		"title": "Ingreso de Buses ",
+		"description": " 20 puestos en adelante",
+		"thumbnailUrl": "imgs/senderismo2.jpg"
+	}
+
+
+]

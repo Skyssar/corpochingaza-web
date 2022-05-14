@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Senderismo</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+ <!-- Favicons -->
+ <link href="/assets/img/favicon.png" rel="icon">
+ <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+ <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+ <!-- Google Fonts -->
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+ <!-- Vendor CSS Files -->
+ <link href="/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+ <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+ <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+ <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+ <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+ <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+ <link href="/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+ <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+ <!-- Template Main CSS File -->
+ <link href="/assets/css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+ <!--Navigation bar-->
+ <div id="nav-placeholder">
+
+</div>
+
+<script>
+  $(function () {
+	$("#nav-placeholder").load("nav.html");
+  });
+</script>
+<!--end of Navigation bar-->
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex justify-cntent-center align-items-center">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <img src="/assets/img/corpochingaza/camping.jpg" style="opacity: 0.7" width="100%" alt="" />
+
+          <div class="carousel-caption">
+            <h2 class="animate__animated animate__fadeInDown" style="color: #f6b024">
+              EL CAMPING
+            </h2>
+            <h3 style="color: white">
+              Piensa en relajarte y vivir una <br />
+              noche en Chingaza al aire libre!
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <img src="/assets/img/corpochingaza/camping2.jpeg" width="100%" alt="" style="opacity: 0.7" />
+
+          <div class="carousel-caption">
+            <h2 class="animate__animated animate__fadeInDown" style="color: #00be61">
+              EL CAMPING EN CHINGAZA
+            </h2>
+            <p class="animate__animated animate__fadeInUp">
+              Alquilamos para ti las zonas de camping, estas son muy comodas y
+              cuentan con varios Servicios necesarios para vivir al aire libre
+            </p>
+            <a href="/N_equipo.html"
+              class="btn-get-started btn-green animate__animated animate__fadeInUp scrollto">Saber Más</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <img src="/assets/img/corpochingaza/camping4.jpeg" width="100%" alt="" style="opacity: 0.7" />
+
+          <div class="carousel-caption">
+            <h2 class="animate__animated animate__fadeInDown" style="color: #00be61">
+              Recuerda llevar todo tu equipo, tambien puedes alquilarlo,
+              preguntanos.
+            </h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <img src="/assets/img/corpochingaza/camping3.jpeg" style="opacity: 0.7" width="100%" alt="" />
+          <div class="carousel-caption">
+            <h2 class="animate__animated animate__fadeInDown" style="color: #017dc7">
+              Corpochingaza
+            </h2>
+            <p class="animate__animated animate__fadeInUp">
+              Ubicado en la Cordillera Oriental de los Andes Colombianos, a
+              poco más de una hora de Bogotá, este parque brinda la
+              oportunidad al visitante de contemplar la majestuosidad y
+              belleza del ecosistema páramo, bosque altoandino y humedales,
+              así como algunas especies de fauna y flora silvestre.
+            </p>
+            <a href="tarifasing.html"
+              class="btn-get-started btn-orange animate__animated animate__fadeInUp scrollto">Nuestros Servicios</a>
+          </div>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+      </a>
+    </div>
+  </section>
+  <!-- End Hero -->
+	  <br><br><br><br><br>
+
+	<div class="container">
+		<h1>Carrito</h1>
+		<hr>
+		<table class="table">
+			<thead>
+			  <tr>
+				<th scope="col">#</th>
+				<th scope="col">Item</th>
+				<th scope="col">Cantidad</th>
+				<th scope="col">Acción</th>
+				<th scope="col">Total</th>
+			  </tr>
+			</thead>
+			<tbody id="items"></tbody>
+			<tfoot>
+			  <tr id="footer">
+				<th scope="row" colspan="5">Carrito vacío!</th>
+			  </tr>
+			</tfoot>
+		  </table>
+		<div class="row" id="cards"></div>
+	</div>
+
+	<template id="template-footer">
+        <th scope="row" colspan="2">Total productos</th>
+        <td>10</td>
+        <td>
+            <button class="btn btn-danger btn-sm" id="vaciar-carrito">
+                vaciar todo
+            </button>
+        </td>
+        <td class="font-weight-bold">$ <span>5000</span></td>
+    </template>
+    
+    <template id="template-carrito">
+      <tr>
+        <th scope="row">id</th>
+        <td>Café</td>
+        <td>1</td>
+        <td>
+            <button class="btn btn-info btn-sm">
+                +
+            </button>
+            <button class="btn btn-danger btn-sm">
+                -
+            </button>
+        </td>
+        <td>$ <span>500</span></td>
+      </tr>
+    </template>
+
+
+	<template id="template-card">
+		<div class="col-12 mb-2 col-md-4">
+		  <div class="card">
+			  <img src="" alt="" class="card-img-top">
+			<div class="card-body">
+			  <h5>Titulo</h5>
+			  <span>precio</span>
+			  <br><br>
+			  <p>Descripcion</p>
+			  <button class="btn btn-dark">Comprar</button>
+			</div>
+		  </div>
+		</div>
+	  </template>
+	
+
+<script src="app.js"></script>
+<footer id="footer">
+<div class="container">
+	<div class="copyright">
+	  &copy; Corpochingaza <strong><span>CORPORACION CHINGAZA</span></strong> 2022
+	</div>
+	<div class="credits">
+	  <!-- All the links in the footer should remain intact. -->
+	  <!-- You can delete the links only if you purchased the pro version. -->
+	  <!-- Licensing information: https://bootstrapmade.com/license/ -->
+	  <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/ -->
+	   <a href="https://bootstrapmade.com/"></a>
+	</div>
+  </div>
+</footer><!-- End Footer -->
+
+
+<div id="preloader"></div>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="/assets/vendor/aos/aos.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="/assets/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

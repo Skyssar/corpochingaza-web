@@ -1,0 +1,21 @@
+[
+	{
+		"precio": 70000,
+		"id": 1,
+		"title": "Cama simple ",
+		"description": "  ",
+		"thumbnailUrl": "imgs/camasimple.jpg"
+	},
+
+	{
+		"precio": 180000,
+		"id": 2,
+		"title": "Cama Doble",
+		"description": "",
+		"thumbnailUrl": "imgs/camadoble.jpg"
+	}
+
+	
+
+
+]
